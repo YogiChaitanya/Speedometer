@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #07080c;
+  background-size: cover;
+  height: 100vh;
+
+  font-family: Roboto;
+  text-align: center;
+}
+
+.speedometer {
+  width: 70%;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.heading2 {
+  font-size: 34px;
+  color: #ffffff;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.main-heading {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.paragraph1 {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.button {
+  padding: 10px;
+
+  border-radius: 5px;
+
+  margin-top: 10px;
+}
+.button1 {
+  background-color: #0b69ff;
+  border: none;
+  color: #ffffff;
+}
+.button2 {
+  color: #94a3b8;
+  border: 2px #94a3b8 solid;
+  background-color: transparent;
+
+  margin-left: 50px;
+}
